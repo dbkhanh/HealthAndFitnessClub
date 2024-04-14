@@ -10,7 +10,7 @@
 
 #### Database Setup
 1. Ensure PostgreSQL is installed and running on your system.
-2. Open `pgAdmin 4` or use the PostgreSQL command-line tool to create a new database named `fitness_clb`.
+2. Open `pgAdmin 4` or use the PostgreSQL command-line tool to create a new database named `fitness_clb` and copied the file DDL into the query tool file.
 3. Use the provided SQL script `fitness_clb.sql` to set up the table structure and insert initial data. You can run this script in `pgAdmin 4` or via command line.
 
 #### Application Setup
