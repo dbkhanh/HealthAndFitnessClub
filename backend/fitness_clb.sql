@@ -113,3 +113,6 @@ CREATE TABLE BillingPayments (
 INSERT INTO Trainers (FirstName, LastName, Email, Password, Phone) VALUES
 ('John', 'Doe', 'johndoe@example.com', 'johndoe', '2001'),
 ('Jane', 'Smith', 'janesmith@gmail.com', 'janesmith', '2002');
+
+INSERT INTO Staffs (FirstName, LastName, Email, Password, Phone) VALUES
+('Admin', 'admin', 'admin@gmail.com', 'admin', '1001');

@@ -329,7 +329,7 @@ def view_all_classes():
 
                     # Assume the columns are properly ordered
                     for session in personal_sessions:
-                        print(f"{session[0]}, {session[1]}, {session[2]}, {session[3]}, {session[4]}")
+                        print(f"{session[0]}, {session[1]}, {session[2]}, {session[3]}")
                 else:
                     print("No personal training sessions found.")
                 

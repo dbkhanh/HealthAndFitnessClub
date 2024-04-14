@@ -511,6 +511,7 @@ def main_menu(member_id):
 
         elif choice == '9':
             manage_payment(member_id)
+            print("Payment made successfully! Please schedule a class of your choice.")
 
         elif choice == '10':
             print("Exiting...")
