@@ -58,7 +58,7 @@ CREATE TABLE ClassRegistrations (
     ClassID INT,
     MemberID INT,
     RegistrationDate DATE,
-    FOREIGN KEY (ClassID) REFERENCES ClassSchedules(ScheduleID),
+    FOREIGN KEY (ClassID) REFERENCES ClassSchedules(ClassID),
     FOREIGN KEY (MemberID) REFERENCES Members(MemberID)
 );
 
